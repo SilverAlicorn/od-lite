@@ -1,0 +1,81 @@
+[
+    {
+        "Core": "cb66a8be-7202-4304-b946-0e077c98e34b",
+        "Station Name": "Joint Space Station",
+        "uuid": "ea04defe-ebad-4d4a-9b89-9b9ef398c6c9"
+    },
+    [
+        {
+            "Children": [
+                "acc902cc-b4b8-4bf1-84e5-934b131b2e81"
+            ],
+            "Kind": "Core",
+            "Module Name": "Luna",
+            "Parent": null,
+            "Ports": [
+                "0330620d-fbb7-41c5-bab5-db901dfcd9cc",
+                "d57209e3-6419-4d32-849a-edb8b0a73b89"
+            ],
+            "Tree Depth": 0,
+            "uuid": "cb66a8be-7202-4304-b946-0e077c98e34b"
+        },
+        {
+            "Children": [],
+            "Kind": "Module",
+            "Module Name": "FGB",
+            "Parent": "cb66a8be-7202-4304-b946-0e077c98e34b",
+            "Ports": [
+                "84a9e966-f294-4a53-9e70-4b0792f9bdd0",
+                "b797aab2-0722-46a5-8393-6c807b4baf34",
+                "963fc360-d433-46e2-ab6a-eca1598a3345",
+                "7a407a9c-dbd6-4451-8688-d9c2ae680d98"
+            ],
+            "Tree Depth": 1,
+            "uuid": "acc902cc-b4b8-4bf1-84e5-934b131b2e81"
+        }
+    ],
+    [
+        {
+            "Connection": "84a9e966-f294-4a53-9e70-4b0792f9bdd0",
+            "Port Name": "A",
+            "Root": "cb66a8be-7202-4304-b946-0e077c98e34b",
+            "Side": "Fore",
+            "uuid": "0330620d-fbb7-41c5-bab5-db901dfcd9cc"
+        },
+        {
+            "Connection": "None",
+            "Port Name": "B",
+            "Root": "cb66a8be-7202-4304-b946-0e077c98e34b",
+            "Side": "Aft",
+            "uuid": "d57209e3-6419-4d32-849a-edb8b0a73b89"
+        },
+        {
+            "Connection": "0330620d-fbb7-41c5-bab5-db901dfcd9cc",
+            "Port Name": "A",
+            "Root": "acc902cc-b4b8-4bf1-84e5-934b131b2e81",
+            "Side": "Fore",
+            "uuid": "84a9e966-f294-4a53-9e70-4b0792f9bdd0"
+        },
+        {
+            "Connection": "None",
+            "Port Name": "B",
+            "Root": "acc902cc-b4b8-4bf1-84e5-934b131b2e81",
+            "Side": "Aft",
+            "uuid": "b797aab2-0722-46a5-8393-6c807b4baf34"
+        },
+        {
+            "Connection": "None",
+            "Port Name": "C",
+            "Root": "acc902cc-b4b8-4bf1-84e5-934b131b2e81",
+            "Side": "Port",
+            "uuid": "963fc360-d433-46e2-ab6a-eca1598a3345"
+        },
+        {
+            "Connection": "None",
+            "Port Name": "D",
+            "Root": "acc902cc-b4b8-4bf1-84e5-934b131b2e81",
+            "Side": "Starboard",
+            "uuid": "7a407a9c-dbd6-4451-8688-d9c2ae680d98"
+        }
+    ]
+]
